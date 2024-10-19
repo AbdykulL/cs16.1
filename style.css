@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(128, 128, 128, 0.386);
+    position: relative;
+}
+.container {
+    background-color: rgb(231, 226, 213);
+        border-radius: 20px;
+        width: 750px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: absolute;
+        top: 220px;
+        left: 340px;
+        box-shadow: 1px 7px 15px 0px rgb(169, 167, 167); 
+
+    
+
+
+}
+.four img {
+    width: 30px;
+}
+.images img{
+    width: 80px;
+    border-radius: 50%;
+   
+}
+.images{
+    
+    position: absolute;
+    left:  360px;
+    margin-top: -90px;
+}
+.four  {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 180px;
+    
+    
+}
+img{
+    border-radius: 10px;
+    border: 1px black;
+}
+
+.bot{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 80px;
+
+}
+button{
+    background-color: rgba(17, 17, 83, 0.979);
+    width: 100px;
+    height: 40px;
+    color: white ;
+    border-radius: 5px;
+}
+.cs p{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -90px ;
+}
+.cs img {
+    position: absolute;
+    margin-left: 1030px;
+    margin-top: -90px ;
+}
+.cs progress{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -70px ;
+}
+progress{
+    width: 250px;
+    height: 20px;
+    accent-color: orange ;
+}
